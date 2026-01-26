@@ -103,7 +103,7 @@ h1:hover {
     color: #d1d1d1;
 }
 
-.box img {
+.box-img img {
     width: 90%;
     border: 3px solid grey;
     transition: all 0.5s ease;
@@ -115,7 +115,7 @@ h1:hover {
 }
 
 .box-text {
-    flex: .7;
+    flex: 1;
     margin-top: 30px;
 }
 
@@ -125,14 +125,31 @@ h1:hover {
     padding: 0px;
 }
 
-.logo {
+#x-logo {
     width: 50px;
     position: relative;
-    top: 70px;
-    right: 70px;
+    top: 15px;
+    right: 15px;
 }
 
 .logo:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
+
+.intro a:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.logo {
+    width: 300px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 50px;
+}
+
+.logos {
+align-self: center;
+}
+
