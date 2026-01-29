@@ -122,7 +122,9 @@ h1:hover {
     right: 15px;
 }
 
-
+.intro {
+width: 95%;
+}
 
 .intro a:hover {
     text-decoration: underline;

@@ -3,15 +3,16 @@
     <head>
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Apps</title>
+        <title>Hitting Apps</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <div id = "title">SoxSavant</div>
             <nav>
-                <a href = "index.html">Home</a>
-                <a href = "apps.html" class = "active">Apps</a>
+                <a href = "index.html" >Home</a>
+                <a href = "hitting_apps.html" class = "active">Hitting Apps</a>
+                <a href = "pitching_apps.html">Pitching Apps</a>
             </nav>
             <a href = "https://x.com/Sox_Savant" target = "_blank"><img id = "x-logo" src = "/images/x-logo.png"></a>
         </header>
@@ -23,7 +24,7 @@
             <h1><a href = "https://custom-comparison-app.streamlit.app/" target = "_blank">Custom Hitter Comparison</a></h1>
             <p class = "paragraph">Ever seen those Stathead comparisons on Social Media? 
                 Frustrated that it doesn't include defense, baserunning, and Statcast metrics?
-            You can customize your own graphic with this app.</p>   
+            You can fully customize your own graphics, choose from presets, and even compare historical players, all over any span of years.</p>   
             </section>
                 </div>
             <div class = "box iframe-img" onclick = "window.open('https://custom-comparison-app.streamlit.app/', '_blank')">
@@ -36,23 +37,9 @@
             <div class = "row">
                 <div class = "box box-text">
             <section>
-            <h1><a href = "https://custompitchercomparisonapp.streamlit.app/" target = "_blank">Custom Pitcher Comparison</a></h1>
-            <p class = "paragraph">I've also created an app to compare pitchers.</p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://custompitchercomparisonapp.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe src = "https://custompitchercomparisonapp.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
             <h1><a href = "https://customizable-player-savant-page.streamlit.app/" target = "_blank">Custom Hitter Savant Page</a></h1>
-            <p class = "paragraph">You can also customize a hitter's Baseball Savant page, but with non-Statcast stats as well. 
-                Pages from years prior to Statcast can also be created.</p>   
+            <p class = "paragraph">You can also customize a hitter's Baseball Savant page and include or exclude whichever stats you prefer. 
+                Pages from years prior to Statcast can also be created with non-Statcast stats, all the way back to the 1800s.</p>   
             </section>
                 </div>
             <div class = "box iframe-img" onclick = "window.open('https://customizable-player-savant-page.streamlit.app/', '_blank')">
@@ -67,7 +54,7 @@
             <section>
             <h1><a href = "https://customizable-team-savant-page-creator.streamlit.app/" target = "_blank">Custom Team Hitting Savant Page</a></h1>
             <p class = "paragraph">Curious which players from one team led in certain stats? You can sort by minimum plate
-                appearances and see a team's best hitters in any year.</p>   
+                appearances and see a team's best hitters in any statistics for any year, savant page style. The percentiles are based on qualified hitters that year.</p>   
             </section>
                 </div>
             <div class = "box iframe-img" onclick = "window.open('https://customizable-team-savant-page-creator.streamlit.app/', '_blank')">
@@ -81,7 +68,10 @@
                 <div class = "box box-text">
             <section>
             <h1><a href = "https://hitterleaderboardapp.streamlit.app/" target = "_blank">Custom Hitter Leaderboard</a></h1>
-            <p class = "paragraph">You can quickly see the ten best or worst players in any given stat with this app.</p>   
+            <p class = "paragraph">You can easily display the ten best or worst hitters in any given stat with this app. For rate stats,
+                a minimum PA threshold can be created and displayed at the top. If a player's headshot doesn't load, 
+                enter their MLB ID (found in their MLB profile url) to load their picture.
+            </p>   
             </section>
                 </div>
             <div class = "box iframe-img" onclick = "window.open('https://hitterleaderboardapp.streamlit.app/', '_blank')">
