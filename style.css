@@ -47,6 +47,7 @@ nav a{
 
 .row {
     display: flex;
+    justify-content: center;
 }
 
 .box {
@@ -92,7 +93,7 @@ h1 {
     color: #F5f5f5;
 }
 
-h1:hover {
+.app-title:hover {
     text-decoration: underline;
     cursor:pointer;
 }
@@ -109,11 +110,7 @@ h1:hover {
     margin-top: 30px;
 }
 
-.box-img {
-    flex: 1;
-    margin: 30px;
-    padding: 0px;
-}
+
 
 #x-logo {
     width: 50px;
@@ -187,6 +184,58 @@ align-self: center;
     border-radius: 50%;
     width: 120px;
     height: 120px;
+}
+
+#feature-header {
+    text-align: center;
+}
+
+.h1-home {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.box-img img{
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 20px 20px 5px rgba(0,0,0,0.25);
+    transition: all 0.5s ease;
+    gap: 1rem;
+}
+
+.box-img img:hover {
+    transform: scale(1.05);
+}
+
+.box-img h2 {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align:  center;
+    font-size: 2.5rem;
+    color: #b41520
+}
+
+.box-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#img-1 {
+    width: 550px;
+}
+
+#img-2 {
+    width: 745px;
 }
 
 
