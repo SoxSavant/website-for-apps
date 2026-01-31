@@ -221,7 +221,7 @@ h2 {
     margin-top: 40px;
     text-align:  center;
     font-size: 2.5rem;
-    color: #b41520
+    color: #e62633
 }
 
 .box-img {
@@ -246,4 +246,8 @@ h2 {
 
 #img-3 {
     width: 550px;
+}
+
+#img-4 {
+    width: 600px;
 }
