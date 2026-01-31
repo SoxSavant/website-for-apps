@@ -88,14 +88,15 @@ nav a.active {
     box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 
-h1 {
-    margin-bottom: 20px;
-    color: #F5f5f5;
-}
 
 .app-title:hover {
     text-decoration: underline;
     cursor:pointer;
+}
+
+.app-title {
+    margin-bottom: 20px;
+    color: #F5f5f5;
 }
 
 .paragraph {
@@ -188,9 +189,14 @@ align-self: center;
 
 #feature-header {
     text-align: center;
+    font-size: 3rem;
+    color: #F5f5f5;
+    
 }
 
-.h1-home {
+#h1-home {
+    margin-bottom: 20px;
+    color: #F5f5f5;
     font-size: 3rem;
 }
 
@@ -212,7 +218,7 @@ h2 {
 
 .box-img h2 {
     margin-bottom: 30px;
-    margin-top: 10px;
+    margin-top: 40px;
     text-align:  center;
     font-size: 2.5rem;
     color: #b41520
@@ -238,4 +244,6 @@ h2 {
     width: 745px;
 }
 
-
+#img-3 {
+    width: 550px;
+}
