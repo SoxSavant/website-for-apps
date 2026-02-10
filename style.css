@@ -29,7 +29,7 @@ header {
 }
 
 nav {
-    width: 60%;
+    width: 80%;
    text-align: center;
    align-self: center;
 }
@@ -236,18 +236,22 @@ h2 {
     gap: 40px;
 }
 
-#img-1 {
-    width: 550px;
+.profile-card-container {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 50%; 
+    border: 3px solid grey;
+    transition: all 0.5s ease;
+    border-radius: 35px;
+    display: flex;
+
 }
 
-#img-2 {
-    width: 745px;
+.profile-card-container:hover {
+    transform: scale(1.03);
+    cursor: pointer;
 }
-
-#img-3 {
-    width: 550px;
-}
-
-#img-4 {
-    width: 600px;
+.profile-card-img {
+width: 100%;
+border-radius: 35px;
 }
