@@ -244,7 +244,7 @@ h2 {
     transition: all 0.5s ease;
     border-radius: 35px;
     display: flex;
-
+    margin-bottom: 30px;
 }
 
 .profile-card-container:hover {
