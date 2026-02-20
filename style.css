@@ -221,7 +221,7 @@ h2 {
     margin-top: 40px;
     text-align:  center;
     font-size: 2.5rem;
-    color: #e62633
+    color: #ffffff
 }
 
 .box-img {
@@ -270,4 +270,20 @@ border-radius: 35px;
 
 #img-4 {
    width: 600px; 
+}
+
+#img-5 {
+    width: 500px;
+}
+
+#img-6 {
+   width: 500px; 
+}
+
+#img-7 {
+   width: 680px; 
+}
+
+#img-8 {
+   width: 680px; 
 }
