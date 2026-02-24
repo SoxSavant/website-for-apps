@@ -22,23 +22,23 @@ header {
 }
 
 #title {
-    width: 40%;
+    width: 50%;
     font-size: 5rem;
     text-align: center;
     align-self: center;
 }
 
 nav {
-    width: 80%;
+    width: 100%;
    text-align: center;
    align-self: center;
 }
 nav a{
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: bold;
     text-decoration: none;
-    padding: 13px 18px;
+    padding: 10px 14px;
     border-radius: 25px;
     display: inline-block;
     margin-inline-end: 30px;
@@ -71,6 +71,15 @@ section {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+#request-link {
+    text-decoration: underline;
+}
+
+#request-link:hover {
+    color: #d54221;
+    cursor: pointer;
 }
 
 a:visited {
@@ -122,6 +131,10 @@ nav a.active {
 
 .intro {
 width: 95%;
+}
+
+.request {
+    width: 50%;
 }
 
 .intro a:hover {
@@ -181,10 +194,10 @@ align-self: center;
 #my-logo {
     position: relative;
     right: -30px;
-    bottom: -20px;
+    bottom: -45px;
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 75px;
+    height: 75px;
 }
 
 #feature-header {
