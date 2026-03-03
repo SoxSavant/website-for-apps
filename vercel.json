@@ -5,12 +5,5 @@
     { "source": "/pitching_apps", "destination": "/pitching_apps.html" },
     { "source": "/profile_cards", "destination": "/profile_cards.html" },
     { "source": "/request", "destination": "/request.html" }
-  ],
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://www.soxsavant.com/$1",
-      "statusCode": 301
-    }
   ]
 }
