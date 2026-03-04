@@ -400,7 +400,7 @@ border-radius: 35px;
 
     #title {
         width: 100%;
-        font-size: 2.4rem;
+        font-size: 3.3rem;
         text-align: center;
     }
 
@@ -508,8 +508,8 @@ border-radius: 35px;
     #my-logo {
         width: 55px;
         height: 55px;
-        right: -15px;
-        bottom: -30px;
+        right: -40px;
+        bottom: -70px;
     }
 }
 
