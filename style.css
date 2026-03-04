@@ -552,4 +552,11 @@ border-radius: 35px;
     .box-img h2 {
         font-size: 1.5rem;
     }
+
+    #my-logo {
+        width: 55px;
+        height: 55px;
+        right: -20px;
+        bottom: -70px;
+    }
 }
