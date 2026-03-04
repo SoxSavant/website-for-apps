@@ -519,7 +519,7 @@ border-radius: 35px;
    ============================================= */
 @media (max-width: 480px) {
     #title {
-        font-size: 1.9rem;
+        font-size: 3rem;
     }
 
     nav a {
