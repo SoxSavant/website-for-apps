@@ -373,6 +373,7 @@ border-radius: 35px;
 
     .logo {
         width: 120px;
+        margin: 25px;
     }
 
     h2 {
@@ -483,7 +484,7 @@ border-radius: 35px;
 
     .logo {
         width: 80px;
-        margin: 25px;
+        margin: 15px;
     }
 
     .profile-card-container {
