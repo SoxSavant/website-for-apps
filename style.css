@@ -308,3 +308,247 @@ border-radius: 35px;
 #img-10 {
    width: 660px; 
 }
+
+
+/* =============================================
+   TABLET BREAKPOINT (max-width: 1024px)
+   ============================================= */
+@media (max-width: 1024px) {
+    #title {
+        font-size: 3.5rem;
+    }
+
+    nav a {
+        font-size: 1.4rem;
+        margin-inline-end: 15px;
+        padding: 8px 10px;
+    }
+
+    section {
+        width: 90%;
+        margin: 30px 40px;
+    }
+
+    #h1-home {
+        font-size: 2.4rem;
+    }
+
+    #feature-header {
+        font-size: 2.4rem;
+    }
+
+    .iframe-container {
+        width: 500px;
+        height: 360px;
+    }
+
+    .iframe-img iframe {
+        transform: scale(0.36);
+        width: 1450px;
+        height: 1100px;
+    }
+
+    .feature-row {
+        gap: 20px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    #img-1, #img-2, #img-3, #img-4, #img-5,
+    #img-6, #img-7, #img-8, #img-9, #img-10 {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .profile-card-container {
+        width: 70%;
+        margin-right: 0;
+    }
+
+    .request {
+        width: 70%;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* =============================================
+   MOBILE BREAKPOINT (max-width: 768px)
+   ============================================= */
+@media (max-width: 768px) {
+    html {
+        background: linear-gradient(to bottom, #BD3039 25vh, #123560 25vh);
+    }
+
+    header {
+        flex-direction: column;
+        height: auto;
+        min-height: 25vh;
+        padding: 15px 10px;
+        gap: 12px;
+    }
+
+    #title {
+        width: 100%;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+        margin-inline-end: 6px;
+        margin-bottom: 6px;
+        padding: 7px 10px;
+    }
+
+    section {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    #h1-home {
+        font-size: 2rem;
+    }
+
+    #feature-header {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .paragraph {
+        font-size: 1.1rem;
+        line-height: 1.8;
+    }
+
+    /* Stack rows vertically on mobile */
+    .row
+     {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* iframe previews scale down to fit mobile */
+    .iframe-img {
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    .iframe-container {
+        width: 100%;
+        max-width: 360px;
+        height: 260px;
+        border-radius: 20px;
+    }
+
+    .iframe-img iframe {
+        transform: scale(0.26);
+        transform-origin: top left;
+        width: 1450px;
+        height: 1100px;
+        top: -10px;
+        left: -10px;
+    }
+
+    /* Images go full width */
+    #img-1, #img-2, #img-3, #img-4, #img-5,
+    #img-6, #img-7, #img-8, #img-9, #img-10 {
+        width: 90%;
+       
+        height: auto;
+    }
+
+    .box-img h2 {
+        font-size: 1.8rem;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 130px;
+        margin: 25px;
+    }
+
+    .profile-card-container {
+        width: 95%;
+        margin-right: 0;
+        border-radius: 20px;
+    }
+
+    .profile-card-img {
+        border-radius: 20px;
+    }
+
+    .request {
+        width: 95%;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    #my-logo {
+        width: 55px;
+        height: 55px;
+        right: -15px;
+        bottom: -30px;
+    }
+}
+
+
+/* =============================================
+   SMALL PHONE BREAKPOINT (max-width: 480px)
+   ============================================= */
+@media (max-width: 480px) {
+    #title {
+        font-size: 1.9rem;
+    }
+
+    nav a {
+        font-size: 0.95rem;
+        padding: 6px 8px;
+        margin-inline-end: 4px;
+    }
+
+    #h1-home {
+        font-size: 1.7rem;
+    }
+
+    #feature-header {
+        font-size: 1.7rem;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+    }
+
+    .iframe-container {
+        max-width: 300px;
+        height: 215px;
+    }
+
+    .iframe-img iframe {
+        transform: scale(0.215);
+    }
+
+    .box-img h2 {
+        font-size: 1.5rem;
+    }
+}
