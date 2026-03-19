@@ -450,6 +450,10 @@ border-radius: 35px;
         font-size: 1.1rem;
         line-height: 1.8;
     }
+    .paragraph-intro {
+        font-size: 1.1rem;
+        line-height: 1.8;
+    }
 
     /* Stack rows vertically on mobile */
     .row, .feature-row
@@ -459,26 +463,31 @@ border-radius: 35px;
         gap: 20px;
     }
 
-    /* iframe previews scale down to fit mobile */
-    .iframe-img {
-        margin: 15px 0;
-        width: 100%;
+       .apps-grid {
+        grid-template-columns: 1fr; /* stack apps */
+    }
+
+    .row {
+        flex-direction: column; /* text on top, iframe below */
+        align-items: center;
     }
 
     .iframe-container {
         width: 100%;
-        max-width: 360px;
-        height: 260px;
-        border-radius: 20px;
+        max-width: 350px;
+        aspect-ratio: 2200 / 1500; /* SAME as desktop */
     }
 
     .iframe-img iframe {
-        transform: scale(0.26);
-        transform-origin: top left;
-        width: 1450px;
-        height: 1100px;
-        top: -10px;
-        left: -10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -52%) scale(0.26); /* just adjust scale */
+        transform-origin: center;
+
+        width: 2000px;
+        height: 1360px;
     }
 
     /* Images go full width */
@@ -550,6 +559,9 @@ border-radius: 35px;
     }
 
     .paragraph {
+        font-size: 1rem;
+    }
+    .paragraph-intro {
         font-size: 1rem;
     }
 
