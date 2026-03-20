@@ -263,14 +263,18 @@ h2 {
 }
 
 .profile-card-container {
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: 20px;
     width: 50%; 
-    border: 3px solid grey;
+    margin-top: 40px;
+
+    
+
     transition: all 0.5s ease;
-    border-radius: 35px;
+    overflow: hidden;
+    
     display: flex;
-    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .profile-card-container:hover {
@@ -279,6 +283,10 @@ h2 {
 }
 .profile-card-img {
 width: 100%;
+border-radius: 35px;
+height: auto;
+display: block;
+border: 3px solid grey;
 border-radius: 35px;
 }
 
