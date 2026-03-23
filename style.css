@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+#error {
+    color: white;
+    margin-bottom: 30px;
+}
+
 html {
     height: 100%;
     background: linear-gradient(to bottom, #BD3039 20vh, #123560 20vh);
