@@ -304,11 +304,11 @@ border-radius: 35px;
 }
 
 #img-3 {
-    width: 550px;
+    width: 680px;
 }
 
 #img-4 {
-   width: 600px; 
+   width: 680px; 
 }
 
 #img-5 {
@@ -332,7 +332,24 @@ border-radius: 35px;
 }
 
 #img-10 {
-   width: 660px; 
+   width: 680px; 
+}
+
+
+#img-11 {
+   width: 630px; 
+}
+
+#img-12 {
+    width: 600px;
+}
+
+#img-13 {
+    width: 600px;
+}
+
+#img-14 {
+    width: 670px;
 }
 
 
@@ -383,7 +400,8 @@ border-radius: 35px;
     }
 
     #img-1, #img-2, #img-3, #img-4, #img-5,
-    #img-6, #img-7, #img-8, #img-9, #img-10 {
+    #img-6, #img-7, #img-8, #img-9, #img-10,
+    #img-11, #img-12, #img-13, #img-14 {
         width: 90%;
         max-width: 600px;
     }
@@ -505,7 +523,8 @@ border-radius: 35px;
 
     /* Images go full width */
     #img-1, #img-2, #img-3, #img-4, #img-5,
-    #img-6, #img-7, #img-8, #img-9, #img-10 {
+    #img-6, #img-7, #img-8, #img-9, #img-10,
+    #img-11, #img-12, #img-13, #img-14  {
         width: 90%;
        
         height: auto;
