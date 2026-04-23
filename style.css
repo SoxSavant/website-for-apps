@@ -358,6 +358,18 @@ border-radius: 35px;
 #img-14 {
     width: 670px;
 }
+#img-15 {
+    width: 670px;
+}
+#img-16 {
+    width: 615px;
+}
+#img-17 {
+    width: 640px;
+}
+#img-18 {
+    width: 660px;
+}
 
 
 /* =============================================
@@ -410,9 +422,9 @@ border-radius: 35px;
 
     #img-1, #img-2, #img-3, #img-4, #img-5,
     #img-6, #img-7, #img-8, #img-9, #img-10,
-    #img-11, #img-12, #img-13, #img-14 {
-        width: 90%;
-        max-width: 600px;
+    #img-11, #img-12, #img-13, #img-14, #img-15, #img-16, #img-17, #img-18 {
+        width: 70%;
+        max-width: 400px;
     }
 
     .profile-card-container {
@@ -538,7 +550,7 @@ border-radius: 35px;
     /* Images go full width */
     #img-1, #img-2, #img-3, #img-4, #img-5,
     #img-6, #img-7, #img-8, #img-9, #img-10,
-    #img-11, #img-12, #img-13, #img-14  {
+    #img-11, #img-12, #img-13, #img-14, #img-15, #img-16, #img-17, #img-18  {
         width: 90%;
        
         height: auto;
