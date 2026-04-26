@@ -148,15 +148,6 @@ nav a.active {
     margin-top: 15px;
 }
 
-
-
-#x-logo {
-    width: 50px;
-    position: relative;
-    top: 15px;
-    right: 15px;
-}
-
 .intro {
 width: 95%;
 }
@@ -221,8 +212,9 @@ align-self: center;
 #my-logo {
     position: static;
     border-radius: 50%;
-    width: 65px;
-    height: 65px;
+    width: 100px;
+    height: 100px;
+    margin-right: -50px;
 }
 
 #feature-header {
@@ -444,6 +436,11 @@ border-radius: 35px;
     h2 {
         font-size: 1.5rem;
     }
+    #my-logo {
+        width: 75px;
+        height: 75px;
+        margin-right: -15px;
+    }
 }
 
 
@@ -588,6 +585,7 @@ border-radius: 35px;
     #my-logo {
         width: 50px;
         height: 50px;
+        margin-right: 0;
     }
 }
 
