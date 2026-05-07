@@ -476,6 +476,10 @@ border-radius: 35px;
         justify-content: center;
     }
 
+    .feature-row {
+        margin: 0;
+    }
+
     header {
         flex-direction: column;
         height: auto;
