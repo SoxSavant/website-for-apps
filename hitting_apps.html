@@ -8,7 +8,7 @@
         <meta property="og:image" content="https://www.soxsavant.com/images/preview.png">
         <meta property="og:url" content="https://www.soxsavant.com/">
         <meta name="twitter:card" content="summary_large_image">
-        <meta charset = "UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>SoxSavant - Hitting Apps</title>
         <link rel="stylesheet" href="style.css">
@@ -19,162 +19,69 @@
     </head>
     <body>
         <header>
-            <img id = "my-logo" src = "/images/mylogo.png">
-            <div id = "title">SoxSavant</div>
+            <img id="my-logo" src="/images/mylogo.png">
+            <div id="title">SoxSavant</div>
             <nav>
-                <a href = "/">Home</a>
-                <a href = "/hitting_apps" class = "active">Hitting Apps</a>
-                <a href = "/pitching_apps">Pitching Apps</a>
-                <a href = "/profile_cards">Profile Cards</a> 
+                <a href="/">Home</a>
+                <a href="/hitting_apps" class="active">Hitting Apps</a>
+                <a href="/pitching_apps">Pitching Apps</a>
+                <a href="/profile_cards">Profile Cards</a>
             </nav>
         </header>
         <main>
-            <div class = "apps-grid">
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://custom-comparison-app.streamlit.app/" target = "_blank">Custom Comparison</a></h1>
-            <p class = "paragraph">Compare 2-5 hitters across multiple years with fully customizable stats. 
-                Optionally use premade presets, such as one that only display stats that one player leads in.</p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://custom-comparison-app.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://custom-comparison-app.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://hitter-indiv-yoy.streamlit.app/" target = "_blank">Individual Year-over-Year</a></h1>
-            <p class = "paragraph">See how a hitter's stats have changed over any two years. Can choose presets that choose all improved or all regressed stats.</p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://hitter-indiv-yoy.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://hitter-indiv-yoy.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
+            <div class="apps-grid">
 
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://customizable-player-savant-page.streamlit.app/" target = "_blank">Custom Savant Page</a></h1>
-            <p class = "paragraph">Build a personalized Baseball Savant-style page for any hitter. 
-                </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://customizable-player-savant-page.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://customizable-player-savant-page.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
+                <a class="app-card" href="https://custom-comparison-app.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Custom Comparison ↗</h2>
+                    <p class="paragraph">Compare 2–5 hitters across multiple years with fully customizable stats.</p>
+                </a>
 
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://hitterleaderboardapp.streamlit.app/" target = "_blank">Custom Leaderboard</a></h1>
-            <p class = "paragraph">Display the top or bottom hitters for any stat. Choose between
-                single season, multi-year, or split season selection. 
-                
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://hitterleaderboardapp.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://hitterleaderboardapp.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
+                <a class="app-card" href="https://customizable-player-savant-page.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Custom Savant Page ↗</h2>
+                    <p class="paragraph">Build a personalized Baseball Savant-style page for any hitter.</p>
+                </a>
 
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://hitter-year-over-year.streamlit.app/" target = "_blank">Year-over-Year Improvers & Decliners</a></h1>
-            <p class = "paragraph">Track the hitters that improved or regressed the most in any stat between two seasons.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://hitter-year-over-year.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://hitter-year-over-year.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://hitter-stat-filter.streamlit.app/" target = "_blank">Stat Filter Leaderboard</a></h1>
-            <p class = "paragraph">Filter hitters by 1–4 stats of your choice. Show up to 30 who qualify, or just the top 10.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://hitter-stat-filter.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://hitter-stat-filter.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://hitters-per-team.streamlit.app/" target = "_blank">Most Hitters Per Team Leaderboard</a></h1>
-            <p class = "paragraph">Track how many hitters per team reached 1-4 stats at a certain threshold. Show just the top 9, or every team. Optionally only include
-                certain divisions.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://hitters-per-team.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://hitters-per-team.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://hitter-season.streamlit.app/" target = "_blank">Season Counter Leaderboard</a></h1>
-            <p class = "paragraph">See the 10 hitters with the most seasons reaching 1-4 stats at a certain threshold.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://hitter-season.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://hitter-season.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://hitter-league-leaders.streamlit.app/" target = "_blank">League Leaders</a></h1>
-            <p class = "paragraph">See the best or worst hitters in up to 10 stats at once. Choose from presets such as Statcast and Defense or choose your own stats.</p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://hitter-league-leaders.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://hitter-league-leaders.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-         <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://customizable-team-savant-page-creator.streamlit.app/" target = "_blank">Custom Team Savant Page</a></h1>
-            <p class = "paragraph">See a team’s top hitters in any statistic for any year in a Baseball Savant-style format.</p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://customizable-team-savant-page-creator.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://customizable-team-savant-page-creator.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            </div>
+                <a class="app-card" href="https://hitter-indiv-yoy.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Individual Year-over-Year ↗</h2>
+                    <p class="paragraph">See how a single hitter's stats changed between any two seasons.</p>
+                </a>
 
+                <a class="app-card" href="https://hitterleaderboardapp.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Custom Leaderboard ↗</h2>
+                    <p class="paragraph">Display top or bottom hitters for any stat across single, multi-year, or split seasons.</p>
+                </a>
+
+                <a class="app-card" href="https://hitter-year-over-year.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Year-over-Year Improvers & Decliners ↗</h2>
+                    <p class="paragraph">Track which hitters improved or regressed the most in any stat between two seasons.</p>
+                </a>
+
+                <a class="app-card" href="https://hitter-stat-filter.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Stat Filter Leaderboard ↗</h2>
+                    <p class="paragraph">Filter hitters by up to 4 stats and display the top qualifiers.</p>
+                </a>
+
+                <a class="app-card" href="https://hitters-per-team.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Most Hitters Per Team ↗</h2>
+                    <p class="paragraph">See how many hitters per team hit a stat threshold, with optional division filtering.</p>
+                </a>
+
+                <a class="app-card" href="https://hitter-season.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Season Counter Leaderboard ↗</h2>
+                    <p class="paragraph">Find the hitters with the most seasons reaching a given stat threshold.</p>
+                </a>
+
+                <a class="app-card" href="https://hitter-league-leaders.streamlit.app/" target="_blank">
+                    <h2 class="app-title">League Leaders ↗</h2>
+                    <p class="paragraph">See the best or worst hitters across up to 10 stats at once with customizable presets.</p>
+                </a>
+
+                <a class="app-card" href="https://customizable-team-savant-page-creator.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Custom Team Savant Page ↗</h2>
+                    <p class="paragraph">See a team's top hitters in any stat for any year in a Savant-style format.</p>
+                </a>
+
+            </div>
         </main>
     </body>
 </html>

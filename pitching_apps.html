@@ -8,7 +8,7 @@
         <meta property="og:image" content="https://www.soxsavant.com/images/preview.png">
         <meta property="og:url" content="https://www.soxsavant.com/">
         <meta name="twitter:card" content="summary_large_image">
-        <meta charset = "UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>SoxSavant - Pitching Apps</title>
         <link rel="stylesheet" href="style.css">
@@ -19,162 +19,68 @@
     </head>
     <body>
         <header>
-            <img id = "my-logo" src = "/images/mylogo.png">
-            <div id = "title">SoxSavant</div>
+            <img id="my-logo" src="/images/mylogo.png">
+            <div id="title">SoxSavant</div>
             <nav>
-                <a href = "/">Home</a>
-                <a href = "/hitting_apps">Hitting Apps</a>
-                <a href = "/pitching_apps" class = "active">Pitching Apps</a>
-                <a href = "/profile_cards">Profile Cards</a>
+                <a href="/">Home</a>
+                <a href="/hitting_apps">Hitting Apps</a>
+                <a href="/pitching_apps" class="active">Pitching Apps</a>
+                <a href="/profile_cards">Profile Cards</a>
             </nav>
         </header>
         <main>
-            <div class = "apps-grid">
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://custompitchercomparisonapp.streamlit.app/" target = "_blank">Custom Comparison</a></h1>
-            <p class = "paragraph">Compare up to five pitchers side by side using advanced stats like fWAR, xERA, FIP, and Barrel%. 
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://custompitchercomparisonapp.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://custompitchercomparisonapp.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://pitcher-indiv-yoy.streamlit.app/" target = "_blank">Individual Year-over-Year</a></h1>
-            <p class = "paragraph">See how a pitcher's stats have changed over any two years. Can choose presets that choose all improved or all regressed stats.</p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://pitcher-indiv-yoy.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://pitcher-indiv-yoy.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
+            <div class="apps-grid">
 
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://pitcher-savant-page.streamlit.app/" target = "_blank">Custom Savant Page</a></h1>
-            <p class = "paragraph">Build a personalized Baseball Savant-style page for any pitcher. 
-                Sort stats by manual ordering or percentile.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://pitcher-savant-page.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://pitcher-savant-page.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
+                <a class="app-card" href="https://custompitchercomparisonapp.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Custom Comparison ↗</h2>
+                    <p class="paragraph">Compare up to five pitchers side by side using advanced stats.</p>
+                </a>
 
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://pitcher-leaderboard.streamlit.app/" target = "_blank">Custom Leaderboard</a></h1>
-            <p class = "paragraph">Display the 10 best or worst pitchers in any stat in a single season, 
-                split season span, or multi-year span.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://pitcher-leaderboard.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://pitcher-leaderboard.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
+                <a class="app-card" href="https://pitcher-savant-page.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Custom Savant Page ↗</h2>
+                    <p class="paragraph">Build a personalized Baseball Savant-style page for any pitcher.</p>
+                </a>
 
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://pitcher-year-over-year.streamlit.app/" target = "_blank">Year-over-Year Improvers & Decliners</a></h1>
-            <p class = "paragraph">Track the pitchers that improved or regressed the most in any stat between two seasons.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://pitcher-year-over-year.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://pitcher-year-over-year.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://pitcher-stat-filter.streamlit.app/" target = "_blank">Stat Filter Leaderboard</a></h1>
-            <p class = "paragraph">Filter pitchers by 1–4 stats of your choice. Show up to 30 who qualify, 
-                or just the top 10.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://pitcher-stat-filter.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://pitcher-stat-filter.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://pitchers-per-team.streamlit.app/" target = "_blank">Most Pitchers Per Team Leaderboard</a></h1>
-            <p class = "paragraph">Track how many pitchers per team reached 1-4 stats at a certain threshold. Show just the top 9, or every team. Optionally only include
-                certain divisions.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://pitchers-per-team.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://pitchers-per-team.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://pitcher-season.streamlit.app/" target = "_blank">Season Counter Leaderboard</a></h1>
-            <p class = "paragraph">See the 10 pitchers with the most seasons reaching 1-4 stats at a certain threshold.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://pitcher-season.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://pitcher-season.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://pitcher-league-leaders.streamlit.app/" target = "_blank">League Leaders</a></h1>
-            <p class = "paragraph">See the best or worst pitchers in up to 10 stats at once. Choose from presets such as Statcast or choose your own stats.</p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://pitcher-league-leaders.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://pitcher-league-leaders.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
-             <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://team-pitching-savant.streamlit.app/" target = "_blank">Custom Team Savant Page</a></h1>
-            <p class = "paragraph">See a team’s top pitchers in any statistic for any year in a Baseball Savant-style format.
-            </p>   
-            </section>
-                </div>
-            <div class = "box iframe-img" onclick = "window.open('https://team-pitching-savant.streamlit.app/', '_blank')">
-                <div class = "iframe-container">
-                    <iframe loading = "lazy" src = "https://team-pitching-savant.streamlit.app/?embed=true" ></iframe>
-                    </div>
-                </div>
-            </div>
+                <a class="app-card" href="https://pitcher-indiv-yoy.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Individual Year-over-Year ↗</h2>
+                    <p class="paragraph">See how a single pitcher's stats changed between any two seasons.</p>
+                </a>
+
+                <a class="app-card" href="https://pitcher-leaderboard.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Custom Leaderboard ↗</h2>
+                    <p class="paragraph">Display top or bottom pitchers for any stat across single, multi-year, or split seasons.</p>
+                </a>
+
+                <a class="app-card" href="https://pitcher-year-over-year.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Year-over-Year Improvers & Decliners ↗</h2>
+                    <p class="paragraph">Track which pitchers improved or regressed the most in any stat between two seasons.</p>
+                </a>
+
+                <a class="app-card" href="https://pitcher-stat-filter.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Stat Filter Leaderboard ↗</h2>
+                    <p class="paragraph">Filter pitchers by up to 4 stats and display the top qualifiers.</p>
+                </a>
+
+                <a class="app-card" href="https://pitchers-per-team.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Most Pitchers Per Team ↗</h2>
+                    <p class="paragraph">See how many pitchers per team hit a stat threshold, with optional division filtering.</p>
+                </a>
+
+                <a class="app-card" href="https://pitcher-season.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Season Counter Leaderboard ↗</h2>
+                    <p class="paragraph">Find the pitchers with the most seasons reaching a given stat threshold.</p>
+                </a>
+
+                <a class="app-card" href="https://pitcher-league-leaders.streamlit.app/" target="_blank">
+                    <h2 class="app-title">League Leaders ↗</h2>
+                    <p class="paragraph">See the best or worst pitchers across up to 10 stats at once with customizable presets.</p>
+                </a>
+
+                <a class="app-card" href="https://team-pitching-savant.streamlit.app/" target="_blank">
+                    <h2 class="app-title">Custom Team Savant Page ↗</h2>
+                    <p class="paragraph">See a team's top pitchers in any stat for any year in a Savant-style format.</p>
+                </a>
+
             </div>
         </main>
     </body>

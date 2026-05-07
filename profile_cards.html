@@ -8,7 +8,7 @@
         <meta property="og:image" content="https://www.soxsavant.com/images/preview.png">
         <meta property="og:url" content="https://www.soxsavant.com/">
         <meta name="twitter:card" content="summary_large_image">
-        <meta charset = "UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>SoxSavant - Profile Cards</title>
         <link rel="stylesheet" href="style.css">
@@ -19,44 +19,35 @@
     </head>
     <body>
         <header>
-            <img id = "my-logo" src = "/images/mylogo.png">
-            <div id = "title">SoxSavant</div>
+            <img id="my-logo" src="/images/mylogo.png">
+            <div id="title">SoxSavant</div>
             <nav>
-                <a href = "/">Home</a>
-                <a href = "/hitting_apps">Hitting Apps</a>
-                <a href = "/pitching_apps">Pitching Apps</a>
-                <a href = "/profile_cards" class = "active">Profile Cards</a>
+                <a href="/">Home</a>
+                <a href="/hitting_apps">Hitting Apps</a>
+                <a href="/pitching_apps">Pitching Apps</a>
+                <a href="/profile_cards" class="active">Profile Cards</a>
             </nav>
         </header>
         <main>
-            <div class = "apps-grid">
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://sports-card-generator.vercel.app/hitter" target = "_blank">Hitter Profile Card</a></h1>
-            <p class = "paragraph">Quickly generate a hitter’s profile card for any season. Includes stats like AVG, OPS, HR, RBI, player age, and season year. 
-                The headshot border and team name are color-coded to the team’s primary color.</p>   
-            </section>
-                </div>
-                <div class = "profile-card-container">
-                    <a href = "https://sports-card-generator.vercel.app/hitter" target = "_blank"><img class = "profile-card-img" src = "/images/hitter-profile-card.png" alt = "hitter card display, with an input box on the left for name and year, and a loaded card of Bobby Witt Jr's 2024 season, showcasing stats such as OPS and HR"></a>
-                </div>
-            </div>
+            <div class="cards-grid">
 
-            <div class = "row">
-                <div class = "box box-text">
-            <section>
-            <h1 class = "app-title"><a href = "https://sports-card-generator.vercel.app/pitcher" target = "_blank">Pitcher Profile Card</a></h1>
-            <p class = "paragraph">Create a pitcher’s profile card for any season. Displays stats such as ERA, IP, W-L, and other main pitching metrics. 
-                Note that data before 1900 may be less accurate.</p>   
-            </section>
-                </div>
-                <div class = "profile-card-container">
-                    <a href = "https://sports-card-generator.vercel.app/pitcher" target = "_blank"><img class = "profile-card-img" src = "/images/pitcher-profile-card.png" alt = "pitcher profile card display, with an input box on the left and Paul Skenes' 2025 season loaded, showcasing his ERA, IP, and other stats"></a>
-                </div>
-            </div>
-            </div>
+                <a class="card-link" href="https://sports-card-generator.vercel.app/hitter" target="_blank">
+                    <img loading = "lazy" class="profile-card-img" src="/images/hitter-profile-card.png" alt="Hitter profile card showing Bobby Witt Jr's 2024 season stats">
+                    <div class="card-label">
+                        <h2 class="app-title">Hitter Profile Card ↗</h2>
+                        <p class="paragraph">Generate a hitter's profile card for any season, color-coded to their team.</p>
+                    </div>
+                </a>
 
+                <a class="card-link" href="https://sports-card-generator.vercel.app/pitcher" target="_blank">
+                    <img loading = "lazy" class="profile-card-img" src="/images/pitcher-profile-card.png" alt="Pitcher profile card showing Paul Skenes' 2025 season stats">
+                    <div class="card-label">
+                        <h2 class="app-title">Pitcher Profile Card ↗</h2>
+                        <p class="paragraph">Generate a pitcher's profile card for any season, color-coded to their team.</p>
+                    </div>
+                </a>
+
+            </div>
         </main>
     </body>
 </html>
