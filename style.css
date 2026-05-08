@@ -9,6 +9,30 @@
     margin-bottom: 30px;
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin-left: -70px;
+}
+
+.box {
+    padding: 5px;
+}
+
+.box-text {
+    flex: 1;
+    margin-top: 15px;
+}
+
+.logos {
+    align-self: center;
+}
+
 html {
     height: 100%;
     background: linear-gradient(to bottom, #BD3039 20vh, #123560 20vh);
@@ -349,6 +373,12 @@ section {
         margin: 30px 40px;
     }
 
+     .row {
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin: auto;
+    }
+
     #h1-home { font-size: 2.4rem; }
     #feature-header { font-size: 2.4rem; }
     #subheader { font-size: 1.3rem; }
@@ -392,6 +422,14 @@ section {
 @media (max-width: 768px) {
     html {
         background: linear-gradient(to bottom, #BD3039 25vh, #123560 25vh);
+    }
+
+      .row
+     {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      
     }
 
      .cards-grid {
